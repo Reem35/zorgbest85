@@ -288,7 +288,7 @@ if(!message.guild.member(client.user).hasPermission("MUTE_MEMBERS")) return mess
   }
  
 });
-const adminprefix = ".";
+const adminprefix = "!";
 const devs = ['440856489524068352','440856489524068352'];
 client.on('message', message => {
   var argresult = message.content.split( ).slice(1).join(' ');
@@ -316,7 +316,7 @@ client.user.setAvatar(argresult);
       message.channel.sendMessage(:white_check_mark:   ${argresult})
   } else 
   if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/akrame35");
+    client.user.setGame(argresult, "https://www.twitch.tv/حب بلا حدود");
       message.channel.sendMessage(:white_check_mark:   ${argresult})
   }
   });
