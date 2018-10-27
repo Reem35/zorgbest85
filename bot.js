@@ -314,11 +314,7 @@ client.user.setAvatar(argresult);
   if (message.content.startsWith(adminprefix + 'ls')) {
   client.user.setActivity(argresult , {type:'LISTENING'});
       message.channel.sendMessage(:white_check_mark:   ${argresult})
-  } else 
-  if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/akrame35");
-      message.channel.sendMessage(:white_check_mark:   ${argresult})
-  }
+	  
   });
 
 client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
