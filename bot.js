@@ -289,7 +289,7 @@ if(!message.guild.member(client.user).hasPermission("MUTE_MEMBERS")) return mess
  
 });
 const adminprefix = ".";
-const devs = ['440856489524068352','505773122654568453'];
+const devs = ['505773122654568453','440856489524068352'];
 client.on('message', message => {
   var argresult = message.content.split( ).slice(1).join(' ');
     if (!devs.includes(message.author.id)) return;
