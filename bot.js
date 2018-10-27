@@ -316,7 +316,7 @@ client.user.setAvatar(argresult);
       message.channel.sendMessage(:white_check_mark:   ${argresult})
   } else 
   if (message.content.startsWith(adminprefix + 'st')) {
-    client.user.setGame(argresult, "https://www.twitch.tv/حب بلا حدود");
+    client.user.setGame(argresult, "https://www.twitch.tv/akrame35");
       message.channel.sendMessage(:white_check_mark:   ${argresult})
   }
   });
